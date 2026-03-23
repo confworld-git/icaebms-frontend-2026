@@ -493,8 +493,8 @@ const RegistrationFee = () => {
                         </label>
                       </td>
                       <td className="p-4 border-r border-gray-200">
-                        <label className={!isFinal ? "line-through text-gray-400" : ""}>
-                          <input disabled={!isFinal} type="radio" name="price"
+                        <label >
+                          <input  type="radio" name="price"
                             onChange={() => handleBaseSelect(item.final, fee.title, item.category)}
                             value={item.final} className="mr-2" />
                           {item.final}
@@ -544,8 +544,8 @@ const RegistrationFee = () => {
                         </label>
                       </td>
                       <td className="p-4">
-                        <label className={!isFinal ? "line-through text-gray-400" : ""}>
-                          <input disabled={!isFinal} type="radio" name="price"
+                        <label >
+                          <input  type="radio" name="price"
                             onChange={() => handleBaseSelect(item.final, fee.title, item.category)}
                             value={item.final} className="mr-2" />
                           {item.final}
@@ -569,8 +569,8 @@ const RegistrationFee = () => {
                     <tr key={i} className={`${i % 2 === 0 ? "bg-gray-100" : "bg-white"} text-sm font-[450]`}>
                       <td className="w-[75%] border-r border-gray-200 p-4">{item.category}</td>
                       <td className="w-[25%] p-4">
-                        <label className={!isFinal ? "line-through text-gray-400" : ""}>
-                          <input disabled={!isFinal} type="radio" name="price"
+                        <label >
+                          <input  type="radio" name="price"
                             onChange={() => handleBaseSelect(item.final, fee.title, item.category)}
                             value={item.final} className="mr-2" />
                           ${item.final}
