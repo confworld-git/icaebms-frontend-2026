@@ -562,8 +562,8 @@ const RegistrationFee = () => {
                         )}
                       </td>
                       <td className="border-r border-gray-200 p-4">
-                        <label className={!isEarlyBird ? "line-through text-gray-400" : ""}>
-                          <input disabled={!isEarlyBird} type="radio" name="price"
+                        <label >
+                          <input  type="radio" name="price"
                             onChange={() => handleBaseSelect(item.earlyBird, fee.title, item.category)}
                             value={item.earlyBird} className="mr-2" />
                           {item.earlyBird}
@@ -613,8 +613,8 @@ const RegistrationFee = () => {
                         )}
                       </td>
                       <td className="border-r border-gray-200 p-4">
-                        <label className={!isEarlyBird ? "line-through text-gray-400" : ""}>
-                          <input disabled={!isEarlyBird} type="radio" name="price"
+                        <label >
+                          <input  type="radio" name="price"
                             onChange={() => handleBaseSelect(item.earlyBird, fee.title, item.category)}
                             value={item.earlyBird} className="mr-2" />
                           {item.earlyBird}
