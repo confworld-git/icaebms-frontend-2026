@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../commonhero/common-hero";
 // import { Helmet } from "react-helmet";
-import { FileText, Shield, XCircle, RefreshCw, Globe, Mail, Phone, MapPin, AlertCircle } from 'lucide-react';
+import { FileText, Shield, XCircle, RefreshCw, Globe, Mail, Phone, MapPin, AlertCircle, Box } from 'lucide-react';
 
 const TermsandConditions = () => {
   return (
@@ -140,6 +140,18 @@ const TermsandConditions = () => {
           </div>
         </section>
 
+        {/* Program Slot Policy */}
+        <section className="bg-white rounded-lg shadow-md p-8 mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <Box className="text-blue-600" size={32} />
+            <h2 className="text-3xl font-bold text-blue-900">Program Slot Policy</h2>
+          </div>
+          <div className="space-y-4 text-gray-700">
+            <p>No changes to allocated slots will be allowed once the official program schedule (Agenda) is released.</p>
+            
+           
+          </div>
+        </section>
         {/* Cancellation Policy */}
         <section className="bg-white rounded-lg shadow-md p-8 mb-8">
           <div className="flex items-center gap-3 mb-6">
