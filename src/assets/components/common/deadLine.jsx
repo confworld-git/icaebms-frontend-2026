@@ -111,7 +111,31 @@ const DeadLine = () => {
           })}
         </div>
       </div>
+<div className="bg-white  p-6 max-w-md w-full mx-auto mt-2">
+        {/* Title */}
+        {/* <h2 className="text-xl font-semibold mb-2">{title}</h2> */}
 
+        {/* Description */}
+        {/* <p className="text-gray-600 mb-6">{description}</p> */}
+
+        {/* Buttons */}
+        <div className="flex gap-4">
+          <a
+            href="/abstract-full-paper-submission"
+            className="flex-1 text-center !text-white py-2 rounded-lg bg-blue-600 hover:opacity-90 transition"
+          >
+            Submit Paper
+          </a>
+
+          <a
+            href="/registration-fees"
+            className="flex-1 text-center !text-white py-2 rounded-lg bg-orange-500 hover:opacity-90 transition"
+          >
+            Register Now
+          </a>
+        </div>
+        
+      </div>
       {/* Guidelines Section */}
       <div className="container mx-auto max-w-6xl mt-12">
         <div className="relative p-8 bg-gradient-to-r from-blue-50 to-orange-50 rounded-2xl border-2 border-gray-200 overflow-hidden">
