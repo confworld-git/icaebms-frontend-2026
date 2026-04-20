@@ -109,7 +109,7 @@ export default function TopNavbar() {
   {
     title: "info@icaebms.com",
     icon: mail,
-    link: "mailto:info@iclshma.com",
+    link: "mailto:info@icaebms.com",
     alt: "mail-icon",
   },
   {
