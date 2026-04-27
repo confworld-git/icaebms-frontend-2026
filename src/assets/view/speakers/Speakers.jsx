@@ -118,9 +118,9 @@ const Speakers = () => {
               backgroundImage="/images/commonheroimages/commonhero3.webp"
             />
 
-      {renderSection("Welcome Address")}
+      {/* {renderSection("Welcome Address")}
       {renderSection("Guest of Honour")}
-      {renderSection("Conference Chair")}
+      {renderSection("Conference Chair")} */}
       {renderSection("Keynote Speakers")}
       {renderSection("Session Speakers")}
       {renderSection("Session Chairs")}
